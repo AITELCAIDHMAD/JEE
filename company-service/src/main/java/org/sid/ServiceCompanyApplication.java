@@ -14,6 +14,12 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 public class ServiceCompanyApplication {
 
+	/*
+	 * 
+	 *   aaaaaaaaaaaaaa
+	 * zzzzzzzzzzzz
+	 * 
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceCompanyApplication.class, args);
 	}
