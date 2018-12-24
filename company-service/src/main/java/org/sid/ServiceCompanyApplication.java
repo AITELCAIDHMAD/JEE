@@ -14,17 +14,7 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 public class ServiceCompanyApplication {
 
-	/*
-	 * 
-	 *   aaaaaaaaaaaaaa
-	 * zzzzzzzzzzzz
-	 * ana smyti hamad wnta
-	 * Ana arajolo lbariy hahaha
-	 * 8888888888
-	 * ok
-	 * ana mohmed
-	 * 
-	 */
+	
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceCompanyApplication.class, args);
 	}
