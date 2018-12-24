@@ -17,9 +17,10 @@ import lombok.ToString;
 @ToString
 
 public class Company {	
-	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-	private double price; 
+	private double price;
 	 
 }
