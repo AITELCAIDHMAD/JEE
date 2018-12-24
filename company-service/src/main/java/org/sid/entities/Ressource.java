@@ -6,6 +6,8 @@ import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -26,5 +28,7 @@ public class Ressource implements Serializable {
     private String nom;
     private Date dateAchat;
     private double prix;
+    @Min(0)
+    @Max(20)
     private double note; 
 }
